@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "MainTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [AMapServices sharedServices].apiKey = @"4acfb401ecced0458ef3b7b1c23c5e17";
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+//NSArray *arr = [[NSBundle mainBundle]loadNibNamed:@"MainTabBarViewController" owner:nil options:nil];
+    UITabBarController *mainTab = [[MainTabBarViewController alloc] init];
+    
+    self.window.backgroundColor = [UIColor blackColor];
+   // UITabBarController *tabBarController = [arr lastObject];
+    [self.window addSubview:mainTab.view];
+    [self.window setRootViewController:mainTab];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

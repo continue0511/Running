@@ -15,6 +15,18 @@
 		2DFCF8A21EB2FC8E00525449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFCF8A01EB2FC8E00525449 /* LaunchScreen.storyboard */; };
 		2DFCF8AD1EB2FC8E00525449 /* RunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8AC1EB2FC8E00525449 /* RunningTests.m */; };
 		2DFCF8B81EB2FC8E00525449 /* RunningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8B71EB2FC8E00525449 /* RunningUITests.m */; };
+		2DFCF8CC1EB87F1800525449 /* BROptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8C91EB87F1800525449 /* BROptionItem.m */; };
+		2DFCF8CD1EB87F1800525449 /* BROptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8CB1EB87F1800525449 /* BROptionsButton.m */; };
+		2DFCF8D01EB881CA00525449 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8CF1EB881CA00525449 /* MainTabBarViewController.m */; };
+		2DFCF8D31EB8841B00525449 /* TerritoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8D21EB8841B00525449 /* TerritoryViewController.m */; };
+		2DFCF8D61EB8842F00525449 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8D51EB8842F00525449 /* MoreViewController.m */; };
+		2DFCF8DC1EB8AEFD00525449 /* GoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8DB1EB8AEFD00525449 /* GoViewController.m */; };
+		2DFCF8E81EB8B7F200525449 /* NSAttributedString + attributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8DF1EB8B7F200525449 /* NSAttributedString + attributedString.m */; };
+		2DFCF8E91EB8B7F200525449 /* UIColor+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8E11EB8B7F200525449 /* UIColor+color.m */; };
+		2DFCF8EA1EB8B7F200525449 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8E31EB8B7F200525449 /* UIImage+image.m */; };
+		2DFCF8EB1EB8B7F200525449 /* UILabel+label.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8E51EB8B7F200525449 /* UILabel+label.m */; };
+		2DFCF8EC1EB8B7F200525449 /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCF8E71EB8B7F200525449 /* NSString+string.m */; };
+		505AC1D23ABDB7C8C9C06F26 /* libPods-Running.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED6357EAA1FCBD4814D65E7 /* libPods-Running.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,32 @@
 		2DFCF8B31EB2FC8E00525449 /* RunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFCF8B71EB2FC8E00525449 /* RunningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunningUITests.m; sourceTree = "<group>"; };
 		2DFCF8B91EB2FC8E00525449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFCF8C81EB87F1800525449 /* BROptionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BROptionItem.h; sourceTree = "<group>"; };
+		2DFCF8C91EB87F1800525449 /* BROptionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BROptionItem.m; sourceTree = "<group>"; };
+		2DFCF8CA1EB87F1800525449 /* BROptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BROptionsButton.h; sourceTree = "<group>"; };
+		2DFCF8CB1EB87F1800525449 /* BROptionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BROptionsButton.m; sourceTree = "<group>"; };
+		2DFCF8CE1EB881CA00525449 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		2DFCF8CF1EB881CA00525449 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		2DFCF8D11EB8841B00525449 /* TerritoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerritoryViewController.h; sourceTree = "<group>"; };
+		2DFCF8D21EB8841B00525449 /* TerritoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerritoryViewController.m; sourceTree = "<group>"; };
+		2DFCF8D41EB8842F00525449 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		2DFCF8D51EB8842F00525449 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		2DFCF8DA1EB8AEFD00525449 /* GoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoViewController.h; sourceTree = "<group>"; };
+		2DFCF8DB1EB8AEFD00525449 /* GoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoViewController.m; sourceTree = "<group>"; };
+		2DFCF8DE1EB8B7F200525449 /* NSAttributedString + attributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString + attributedString.h"; sourceTree = "<group>"; };
+		2DFCF8DF1EB8B7F200525449 /* NSAttributedString + attributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString + attributedString.m"; sourceTree = "<group>"; };
+		2DFCF8E01EB8B7F200525449 /* UIColor+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+color.h"; sourceTree = "<group>"; };
+		2DFCF8E11EB8B7F200525449 /* UIColor+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+color.m"; sourceTree = "<group>"; };
+		2DFCF8E21EB8B7F200525449 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		2DFCF8E31EB8B7F200525449 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		2DFCF8E41EB8B7F200525449 /* UILabel+label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+label.h"; sourceTree = "<group>"; };
+		2DFCF8E51EB8B7F200525449 /* UILabel+label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+label.m"; sourceTree = "<group>"; };
+		2DFCF8E61EB8B7F200525449 /* NSString+string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+string.h"; sourceTree = "<group>"; };
+		2DFCF8E71EB8B7F200525449 /* NSString+string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+string.m"; sourceTree = "<group>"; };
+		2DFCF8EE1EB8BAB400525449 /* RunningPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningPrefixHeader.pch; sourceTree = "<group>"; };
+		3D499B7A10985F7C73216D0B /* Pods-Running.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED6357EAA1FCBD4814D65E7 /* libPods-Running.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Running.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B583168071C6D4B897EBBAA3 /* Pods-Running.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running.release.xcconfig"; path = "Pods/Target Support Files/Pods-Running/Pods-Running.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505AC1D23ABDB7C8C9C06F26 /* libPods-Running.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D52FA6DE7C570456C48C918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D499B7A10985F7C73216D0B /* Pods-Running.debug.xcconfig */,
+				B583168071C6D4B897EBBAA3 /* Pods-Running.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2DFCF8861EB2FC8E00525449 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				2DFCF8AB1EB2FC8E00525449 /* RunningTests */,
 				2DFCF8B61EB2FC8E00525449 /* RunningUITests */,
 				2DFCF8901EB2FC8E00525449 /* Products */,
+				0D52FA6DE7C570456C48C918 /* Pods */,
+				33742E57FE89C117F6767796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +151,19 @@
 		2DFCF8911EB2FC8E00525449 /* Running */ = {
 			isa = PBXGroup;
 			children = (
+				2DFCF8DD1EB8B7D700525449 /* categray */,
+				2DFCF8C71EB87EFC00525449 /* BROptionsButton */,
 				2DFCF8951EB2FC8E00525449 /* AppDelegate.h */,
+				2DFCF8EE1EB8BAB400525449 /* RunningPrefixHeader.pch */,
 				2DFCF8961EB2FC8E00525449 /* AppDelegate.m */,
+				2DFCF8CE1EB881CA00525449 /* MainTabBarViewController.h */,
+				2DFCF8CF1EB881CA00525449 /* MainTabBarViewController.m */,
+				2DFCF8D11EB8841B00525449 /* TerritoryViewController.h */,
+				2DFCF8D21EB8841B00525449 /* TerritoryViewController.m */,
+				2DFCF8D41EB8842F00525449 /* MoreViewController.h */,
+				2DFCF8D51EB8842F00525449 /* MoreViewController.m */,
+				2DFCF8DA1EB8AEFD00525449 /* GoViewController.h */,
+				2DFCF8DB1EB8AEFD00525449 /* GoViewController.m */,
 				2DFCF8981EB2FC8E00525449 /* ViewController.h */,
 				2DFCF8991EB2FC8E00525449 /* ViewController.m */,
 				2DFCF89B1EB2FC8E00525449 /* Main.storyboard */,
@@ -140,6 +201,42 @@
 			path = RunningUITests;
 			sourceTree = "<group>";
 		};
+		2DFCF8C71EB87EFC00525449 /* BROptionsButton */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCF8C81EB87F1800525449 /* BROptionItem.h */,
+				2DFCF8C91EB87F1800525449 /* BROptionItem.m */,
+				2DFCF8CA1EB87F1800525449 /* BROptionsButton.h */,
+				2DFCF8CB1EB87F1800525449 /* BROptionsButton.m */,
+			);
+			name = BROptionsButton;
+			sourceTree = "<group>";
+		};
+		2DFCF8DD1EB8B7D700525449 /* categray */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCF8DE1EB8B7F200525449 /* NSAttributedString + attributedString.h */,
+				2DFCF8DF1EB8B7F200525449 /* NSAttributedString + attributedString.m */,
+				2DFCF8E01EB8B7F200525449 /* UIColor+color.h */,
+				2DFCF8E11EB8B7F200525449 /* UIColor+color.m */,
+				2DFCF8E21EB8B7F200525449 /* UIImage+image.h */,
+				2DFCF8E31EB8B7F200525449 /* UIImage+image.m */,
+				2DFCF8E41EB8B7F200525449 /* UILabel+label.h */,
+				2DFCF8E51EB8B7F200525449 /* UILabel+label.m */,
+				2DFCF8E61EB8B7F200525449 /* NSString+string.h */,
+				2DFCF8E71EB8B7F200525449 /* NSString+string.m */,
+			);
+			name = categray;
+			sourceTree = "<group>";
+		};
+		33742E57FE89C117F6767796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED6357EAA1FCBD4814D65E7 /* libPods-Running.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DFCF8BC1EB2FC8E00525449 /* Build configuration list for PBXNativeTarget "Running" */;
 			buildPhases = (
+				69615A05BDC64C7CCA0F1A8C /* [CP] Check Pods Manifest.lock */,
 				2DFCF88B1EB2FC8E00525449 /* Sources */,
 				2DFCF88C1EB2FC8E00525449 /* Frameworks */,
 				2DFCF88D1EB2FC8E00525449 /* Resources */,
+				7B013AD4247A3A336A8C2AF0 /* [CP] Embed Pods Frameworks */,
+				A2B37D3DEBA2566F2716D07B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +371,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69615A05BDC64C7CCA0F1A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B013AD4247A3A336A8C2AF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Running/Pods-Running-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B37D3DEBA2566F2716D07B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Running/Pods-Running-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DFCF88B1EB2FC8E00525449 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFCF8E81EB8B7F200525449 /* NSAttributedString + attributedString.m in Sources */,
+				2DFCF8D31EB8841B00525449 /* TerritoryViewController.m in Sources */,
+				2DFCF8D61EB8842F00525449 /* MoreViewController.m in Sources */,
 				2DFCF89A1EB2FC8E00525449 /* ViewController.m in Sources */,
+				2DFCF8DC1EB8AEFD00525449 /* GoViewController.m in Sources */,
+				2DFCF8EA1EB8B7F200525449 /* UIImage+image.m in Sources */,
+				2DFCF8EC1EB8B7F200525449 /* NSString+string.m in Sources */,
+				2DFCF8CC1EB87F1800525449 /* BROptionItem.m in Sources */,
+				2DFCF8E91EB8B7F200525449 /* UIColor+color.m in Sources */,
+				2DFCF8EB1EB8B7F200525449 /* UILabel+label.m in Sources */,
+				2DFCF8CD1EB87F1800525449 /* BROptionsButton.m in Sources */,
+				2DFCF8D01EB881CA00525449 /* MainTabBarViewController.m in Sources */,
 				2DFCF8971EB2FC8E00525449 /* AppDelegate.m in Sources */,
 				2DFCF8941EB2FC8E00525449 /* main.m in Sources */,
 			);
@@ -427,9 +586,12 @@
 		};
 		2DFCF8BD1EB2FC8E00525449 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D499B7A10985F7C73216D0B /* Pods-Running.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3CHNN482G;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Running/RunningPrefixHeader.pch";
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = running.Running;
@@ -439,9 +601,12 @@
 		};
 		2DFCF8BE1EB2FC8E00525449 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B583168071C6D4B897EBBAA3 /* Pods-Running.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M3CHNN482G;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Running/RunningPrefixHeader.pch";
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = running.Running;
@@ -518,6 +683,7 @@
 				2DFCF8BE1EB2FC8E00525449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFCF8BF1EB2FC8E00525449 /* Build configuration list for PBXNativeTarget "RunningTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +692,7 @@
 				2DFCF8C11EB2FC8E00525449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFCF8C21EB2FC8E00525449 /* Build configuration list for PBXNativeTarget "RunningUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +701,7 @@
 				2DFCF8C41EB2FC8E00525449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
